@@ -3,10 +3,39 @@
 <html lang="en">
     <head>
         <link rel="icon" type="image/x-icon" href="/public/logo_round.png">
+        <link rel="stylesheet" href="public/style.css">
+        <script src="public/text.js"></script>
         <title>Cicero</title>
     </head>
 
     <body>
-        <h1>Cicero (più minimal di così!)</h1>
+        <div id="container">
+            <div id="img-container" class="logo">
+                <img class="logo-image" src="public/logo_round.png">
+            </div>
+
+            <div id="title-container" class="title-container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                    <h3 class="animate-charcter">CICERO</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="word"></div>
+
+        <script>
+            let logo = document.getElementById('img-container');
+            let title = document.getElementById('title-container');
+
+            logo.classList.add('animation');
+
+            setTimeout(() => {
+                title.classList.add('animation');
+
+                setTimeout(wordflick, 1500);
+            }, 1500);
+        </script>
     </body>
 </html>
