@@ -18,6 +18,7 @@ div#middle-section {
     margin-bottom: 200px;
     display: flex;
     align-items: center;
+    font-size: 1.5em;
 }
 
 div#sub-middle {
@@ -168,6 +169,6 @@ div#img-container {
     }
 
     div#middle-section {
-        margin-top: calc(300px + 30vw + 100px);
+        margin-top: calc(300px + 30vw);
     }
 }
