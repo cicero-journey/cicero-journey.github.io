@@ -41,6 +41,9 @@ div#counter-container {
     text-align: center;
     position: absolute;
     bottom: 15px;
+    font-size: 2em;
+    color: rgb(63, 59,59);
+    font-weight: bold;
 }
 
 h3#visitors-label {
